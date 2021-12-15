@@ -1,0 +1,118 @@
+@charset "Utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+:root {
+    --cor1: #2D6634;
+    --cor2: #ADEAB4;
+    --cor3: #65E673;
+    --cor4: #4FB35A;
+
+    --fonte-padrao: arial;
+    --fonte-destaque: 'Alegreya SC', cursive;
+    --fonte-android: 'Zcool Kuaile', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    font-family: var(--fonte-destaque);
+    color: white;
+    padding-top: 30px;
+    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
+    text-align: center;
+    min-height: 150px;
+}
+
+header h1 {
+    text-shadow: 2px 2px 1px rgba(70, 69, 69, 0.808);
+}
+
+header p {
+    text-shadow: 2px 2px 1px rgba(70, 69, 69, 0.808);
+    padding-top: 10px;
+    max-width: 350px;
+    margin: auto;
+}
+
+nav {
+    background-color: var(--cor1);
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(80, 80, 80, 0.836);
+}
+
+main h1 {
+    font-family: var(--fonte-android);
+    color: var(--cor1);
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+    color: var(--cor1);
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main strong {
+    font-weight: bold;
+    color: var(--cor1);
+}
+
+main a {
+    font-weight: bold;
+    color: var(--cor1);
+    text-decoration: none;
+    background-color: var(--cor3);
+}
+
+main img {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--cor1);
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
